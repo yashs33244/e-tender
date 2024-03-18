@@ -1,0 +1,50 @@
+.tender-container {
+    width: 943px;
+    height: 68px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .tender-container1 {
+    width: 131px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .tender-container2 {
+    width: 258px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .tender-container3 {
+    width: 131px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .tender-container4 {
+    width: 621px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .tender-container5 {
+    width: 131px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  

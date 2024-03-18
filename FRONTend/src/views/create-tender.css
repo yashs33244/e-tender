@@ -1,0 +1,60 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .e-tender-form {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: var(--dl-color-gray-white);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-section {
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--dl-color-primary);
+    padding-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--dl-color-primary);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  input:focus {
+    border-color: rgb(91, 42, 225);
+  }
+  
+  .register-button {
+    background-color: #3871c6;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    display: block; /* Make the button a block-level element */
+    margin: 0 auto; /* Center the button horizontally */
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .register-button:hover {
+    background-color: #2e5fb2;
+  }
+  
